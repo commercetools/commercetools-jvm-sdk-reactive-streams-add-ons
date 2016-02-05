@@ -34,7 +34,7 @@ public class QueryPublisherVerificationTest extends PublisherVerification<Produc
     private static BlockingSphereClient client;
 
     public QueryPublisherVerificationTest() {
-        super(new TestEnvironment(300));
+        super(new TestEnvironment(500));
     }
 
     @BeforeClass

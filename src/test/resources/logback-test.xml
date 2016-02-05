@@ -18,7 +18,7 @@
     <logger name="com.ning.http.client" level="WARN"/>
     <logger name="org.javamoney.moneta.DefaultMonetaryContextFactory" level="WARN"/>
     <logger name="DefaultMonetaryContextFactory" level="WARN"/>
-    <logger name="io.sphere.sdk.queries.ReactiveStreams" level="TRACE"/>
+    <logger name="io.sphere.sdk.queries.ReactiveStreams" level="INFO"/>
 
     <root level="INFO">
         <appender-ref ref="STDOUT" />
