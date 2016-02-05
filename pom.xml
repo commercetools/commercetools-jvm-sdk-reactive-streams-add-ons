@@ -1,11 +1,9 @@
-<project xmlns="http://maven.apache.org/POM/4.0.0"
-         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>com.commercetools.sdk.jvm.reactive-streams</groupId>
     <artifactId>commercetools-reactive-streams</artifactId>
-    <version>0.1.0-SNAPSHOT</version>
+    <version>0.1.0</version>
     <packaging>jar</packaging>
     <description>bindings for Reactive Streams and the commercetools JVM SDK</description>
     <name>reactive-streams-support</name>
@@ -28,7 +26,7 @@
         <developerConnection>scm:git:git@github.com:sphereio/commercetools-jvm-sdk-reactive-streams-addons.git</developerConnection>
         <url>git@github.com:sphereio/commercetools-jvm-sdk-reactive-streams-addons.git</url>
         <connection>scm:git:git@github.com:sphereio/commercetools-jvm-sdk-reactive-streams-addons.git</connection>
-        <tag>HEAD</tag>
+        <tag>commercetools-reactive-streams-0.1.0</tag>
     </scm>
     <developers>
         <developer>
