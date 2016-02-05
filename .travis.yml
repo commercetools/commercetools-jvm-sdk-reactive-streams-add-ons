@@ -4,3 +4,7 @@ script: mvn test javadoc:javadoc
 cache:
   directories:
     - $HOME/.m2
+notifications:
+  email:
+    on_success: change
+    on_failure: change
