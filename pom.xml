@@ -62,6 +62,17 @@
                 <artifactId>maven-javadoc-plugin</artifactId>
                 <version>2.10.3</version>
                 <configuration>
+                <taglets>
+                    <taglet>
+                        <tagletClass>com.commercetools.build.taglets.FileIncludeTaglet</tagletClass>
+                        <tagletArtifact>
+                            <groupId>com.commercetools.build.taglets</groupId>
+                            <artifactId>commercetools-taglets</artifactId>
+                            <version>0.6.1</version>
+                        </tagletArtifact>
+                    </taglet>
+                </taglets>
+                    <bottom><![CDATA[<link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/highlight.js/8.8.0/styles/default.min.css'><script src='https://cdnjs.cloudflare.com/ajax/libs/highlight.js/8.8.0/highlight.min.js'></script><script>hljs.initHighlightingOnLoad();</script>]]></bottom>
                 </configuration>
                 <executions>
                     <execution>
