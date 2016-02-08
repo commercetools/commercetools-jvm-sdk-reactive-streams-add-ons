@@ -23,9 +23,9 @@
     </licenses>
 
     <scm>
-        <developerConnection>scm:git:git@github.com:sphereio/commercetools-jvm-sdk-reactive-streams-addons.git</developerConnection>
-        <url>git@github.com:sphereio/commercetools-jvm-sdk-reactive-streams-addons.git</url>
-        <connection>scm:git:git@github.com:sphereio/commercetools-jvm-sdk-reactive-streams-addons.git</connection>
+        <developerConnection>scm:git:git@github.com:sphereio/commercetools-jvm-sdk-reactive-streams-add-ons.git</developerConnection>
+        <url>git@github.com:sphereio/commercetools-jvm-sdk-reactive-streams-add-ons.git</url>
+        <connection>scm:git:git@github.com:sphereio/commercetools-jvm-sdk-reactive-streams-add-ons.git</connection>
         <tag>HEAD</tag>
     </scm>
     <developers>
@@ -99,7 +99,7 @@
                     <checkinComment>publishing Javadoc for ${project.artifactId}:${project.version}</checkinComment>
                     <content>${project.reporting.outputDirectory}/apidocs</content>
                     <skipDeletedFiles>true</skipDeletedFiles>
-                    <pubScmUrl>scm:git:git@github.com:sphereio/commercetools-jvm-sdk-reactive-streams-addons.git</pubScmUrl>
+                    <pubScmUrl>scm:git:git@github.com:sphereio/commercetools-jvm-sdk-reactive-streams-add-ons.git</pubScmUrl>
                     <scmBranch>gh-pages</scmBranch>
                 </configuration>
             </plugin>
