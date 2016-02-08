@@ -6,8 +6,8 @@ Bindings for <a href="https://github.com/reactive-streams/reactive-streams-jvm" 
 [![][maven img]][maven]
 [![][license img]][license]
 
-[travis]:https://travis-ci.org/sphereio/commercetools-jvm-sdk-reactive-streams-addons
-[travis img]:https://travis-ci.org/sphereio/commercetools-jvm-sdk-reactive-streams-addons.svg?branch=master
+[travis]:https://travis-ci.org/sphereio/commercetools-jvm-sdk-reactive-streams-add-ons
+[travis img]:https://travis-ci.org/sphereio/commercetools-jvm-sdk-reactive-streams-add-ons.svg?branch=master
 
 [maven]:http://search.maven.org/#search|gav|1|g:"com.commercetools.sdk.jvm.reactive-streams"%20AND%20a:"commercetools-reactive-streams"
 [maven img]:https://maven-badges.herokuapp.com/maven-central/com.commercetools.sdk.jvm.reactive-streams/commercetools-reactive-streams/badge.svg
