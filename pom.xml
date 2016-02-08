@@ -111,7 +111,7 @@
                     <autoVersionSubmodules>true</autoVersionSubmodules>
                     <useReleaseProfile>false</useReleaseProfile>
                     <releaseProfiles>release</releaseProfiles>
-                    <goals>deploy</goals>
+                    <goals>deploy scm-publish:publish-scm</goals>
                 </configuration>
             </plugin>
         </plugins>
