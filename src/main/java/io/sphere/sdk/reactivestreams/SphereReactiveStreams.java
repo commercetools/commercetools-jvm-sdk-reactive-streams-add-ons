@@ -42,7 +42,7 @@ public final class SphereReactiveStreams {
      * @param seedQuery the query containing a predicate which resources should be fetched, reference expansion can also be used but the sort expressions are ignored
      * @param sphereClient the client performing the requests
      * @param idExtractor function which takes as argument a resource and returns the ID of the resource
-     * @param <T> the type of the resources to fetch (e.g. {@link io.sphere.sdk.products.ProductProjection})
+     * @param <T> the type of the resources to fetch (e.g. {@link io.sphere.sdk.products.ProductProjection} or {@link com.fasterxml.jackson.databind.JsonNode})
      * @param <C> the {@link QueryDsl} container
      * @return publisher
      */
