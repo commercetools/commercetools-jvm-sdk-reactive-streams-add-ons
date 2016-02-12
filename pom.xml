@@ -3,7 +3,7 @@
 
     <groupId>com.commercetools.sdk.jvm.reactive-streams</groupId>
     <artifactId>commercetools-reactive-streams</artifactId>
-    <version>0.2.0</version>
+    <version>0.2.1-SNAPSHOT</version>
     <packaging>jar</packaging>
     <description>bindings for Reactive Streams and the commercetools JVM SDK</description>
     <name>reactive-streams-support</name>
@@ -26,7 +26,7 @@
         <developerConnection>scm:git:git@github.com:sphereio/commercetools-jvm-sdk-reactive-streams-add-ons.git</developerConnection>
         <url>git@github.com:sphereio/commercetools-jvm-sdk-reactive-streams-add-ons.git</url>
         <connection>scm:git:git@github.com:sphereio/commercetools-jvm-sdk-reactive-streams-add-ons.git</connection>
-        <tag>commercetools-reactive-streams-0.2.0</tag>
+        <tag>HEAD</tag>
     </scm>
     <developers>
         <developer>
