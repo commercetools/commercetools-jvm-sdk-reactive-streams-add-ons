@@ -8,7 +8,7 @@ import io.sphere.sdk.queries.Query;
 import io.sphere.sdk.queries.QueryDsl;
 import io.sphere.sdk.queries.QueryPredicate;
 import io.sphere.sdk.queries.QuerySort;
-import io.sphere.sdk.utils.ListUtils;
+import io.sphere.sdk.utils.SphereInternalUtils;
 import org.reactivestreams.Subscriber;
 import org.reactivestreams.Subscription;
 
@@ -83,7 +83,7 @@ final class ForAllSubscription<T extends Identifiable<T>, C extends QueryDsl<T, 
 
     private void fetchNewElements() {
         final QueryPredicate<T> idIsGreaterThanLastIdPredicate = QueryPredicate.of(format("id > \"%s\"", lastId));
-        final Query<T> query = lastId == null ? seedQuery : seedQuery.withPredicates(ListUtils.listOf(seedQuery.predicates(), idIsGreaterThanLastIdPredicate));
+        final Query<T> query = lastId == null ? seedQuery : seedQuery.withPredicates(SphereInternalUtils.listOf(seedQuery.predicates(), idIsGreaterThanLastIdPredicate));
         sphereClient.execute(query).whenComplete((r, e) -> {
             executor.execute(() -> {
                 final boolean success = e == null;
