@@ -6,7 +6,7 @@ Bindings for <a href="https://github.com/reactive-streams/reactive-streams-jvm" 
 [![][maven img]][maven]
 [![][license img]][license]
 
-[Javadoc](http://sphereio.github.io/commercetools-jvm-sdk-reactive-streams-add-ons/)
+[Javadoc](http://commercetools.github.io/commercetools-jvm-sdk-reactive-streams-add-ons/)
 
 
 
@@ -31,7 +31,7 @@ import org.reactivestreams.Publisher;
 
 public class QueryAllIdentifiableDemo {
     public static void demo(final SphereClient client) {
-        final Publisher<Product> productPublisher = 
+        final Publisher<Product> productPublisher =
             SphereReactiveStreams.publisherOf(ProductQuery.of(), client);
     }
 }

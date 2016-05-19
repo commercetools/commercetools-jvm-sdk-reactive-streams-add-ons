@@ -1,6 +1,6 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
-
+om
     <groupId>com.commercetools.sdk.jvm.reactive-streams</groupId>
     <artifactId>commercetools-reactive-streams</artifactId>
     <version>0.2.1-SNAPSHOT</version>
@@ -23,9 +23,9 @@
     </licenses>
 
     <scm>
-        <developerConnection>scm:git:git@github.com:sphereio/commercetools-jvm-sdk-reactive-streams-add-ons.git</developerConnection>
-        <url>git@github.com:sphereio/commercetools-jvm-sdk-reactive-streams-add-ons.git</url>
-        <connection>scm:git:git@github.com:sphereio/commercetools-jvm-sdk-reactive-streams-add-ons.git</connection>
+        <developerConnection>scm:git:git@github.com:commercetools/commercetools-jvm-sdk-reactive-streams-add-ons.git</developerConnection>
+        <url>git@github.com:commercetools/commercetools-jvm-sdk-reactive-streams-add-ons.git</url>
+        <connection>scm:git:git@github.com:commercetools/commercetools-jvm-sdk-reactive-streams-add-ons.git</connection>
         <tag>HEAD</tag>
     </scm>
     <developers>
@@ -180,7 +180,7 @@
                             <checkinComment>publishing Javadoc for ${project.artifactId}:${project.version}</checkinComment>
                             <content>${project.build.directory}/apidocs</content>
                             <skipDeletedFiles>true</skipDeletedFiles>
-                            <pubScmUrl>scm:git:git@github.com:sphereio/commercetools-jvm-sdk-reactive-streams-add-ons.git</pubScmUrl>
+                            <pubScmUrl>scm:git:git@github.com:commercetools/commercetools-jvm-sdk-reactive-streams-add-ons.git</pubScmUrl>
                             <scmBranch>gh-pages</scmBranch>
                         </configuration>
                     </plugin>
