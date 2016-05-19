@@ -1,4 +1,4 @@
-Bindings for <a href="https://github.com/reactive-streams/reactive-streams-jvm" target="_blank">Reactive Streams</a> and the <a href="https://github.com/sphereio/sphere-jvm-sdk">commercetools JVM SDK</a>
+Bindings for <a href="https://github.com/reactive-streams/reactive-streams-jvm" target="_blank">Reactive Streams</a> and the <a href="https://github.com/commercetools/commercetools-jvm-sdk">commercetools JVM SDK</a>
 
 ![SPHERE.IO icon](https://admin.sphere.io/assets/images/sphere_logo_rgb_long.png)
 
@@ -37,8 +37,8 @@ public class QueryAllIdentifiableDemo {
 }
 ```
 
-[travis]:https://travis-ci.org/sphereio/commercetools-jvm-sdk-reactive-streams-add-ons
-[travis img]:https://travis-ci.org/sphereio/commercetools-jvm-sdk-reactive-streams-add-ons.svg?branch=master
+[travis]:https://travis-ci.org/commercetools/commercetools-jvm-sdk-reactive-streams-add-ons
+[travis img]:https://travis-ci.org/commercetools/commercetools-jvm-sdk-reactive-streams-add-ons.svg?branch=master
 
 [maven]:http://search.maven.org/#search|gav|1|g:"com.commercetools.sdk.jvm.reactive-streams"%20AND%20a:"commercetools-reactive-streams"
 [maven img]:https://maven-badges.herokuapp.com/maven-central/com.commercetools.sdk.jvm.reactive-streams/commercetools-reactive-streams/badge.svg
