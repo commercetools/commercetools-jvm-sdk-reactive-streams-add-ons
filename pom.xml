@@ -11,6 +11,7 @@
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <java.version>1.8</java.version>
+        <commercetools-jvm-sdk.version>1.6.0</commercetools-jvm-sdk.version>
     </properties>
 
     <licenses>
@@ -25,7 +26,6 @@
         <developerConnection>scm:git:git@github.com:commercetools/commercetools-jvm-sdk-reactive-streams-add-ons.git</developerConnection>
         <url>git@github.com:commercetools/commercetools-jvm-sdk-reactive-streams-add-ons.git</url>
         <connection>scm:git:git@github.com:commercetools/commercetools-jvm-sdk-reactive-streams-add-ons.git</connection>
-        <tag>HEAD</tag>
     </scm>
     <developers>
         <developer>
@@ -100,12 +100,12 @@
         <dependency>
             <groupId>com.commercetools.sdk.jvm.core</groupId>
             <artifactId>commercetools-models</artifactId>
-            <version>1.0.0-RC1</version>
+            <version>${commercetools-jvm-sdk.version}</version>
         </dependency>
         <dependency>
             <groupId>com.commercetools.sdk.jvm.core</groupId>
             <artifactId>commercetools-java-client</artifactId>
-            <version>1.0.0-RC1</version>
+            <version>${commercetools-jvm-sdk.version}</version>
         </dependency>
         <dependency>
             <groupId>org.reactivestreams</groupId>
